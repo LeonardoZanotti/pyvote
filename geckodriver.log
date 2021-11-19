@@ -983,3 +983,92 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
+1637361634154	geckodriver	INFO	Listening on 127.0.0.1:38565
+1637361634228	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58397" "-no-remote" "-profile" "/tmp/rust_mozprofileR2QAgf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637361636226	Marionette	INFO	Listening on port 35857
+1637361636239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637361651748	Marionette	INFO	Stopped listening on port 35857
+1637361972267	geckodriver	INFO	Listening on 127.0.0.1:50937
+1637361972333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40387" "-no-remote" "-profile" "/tmp/rust_mozprofilePFsLE3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637361974408	Marionette	INFO	Listening on port 43991
+1637361974441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637361999450	Marionette	INFO	Stopped listening on port 43991
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1637362041252	geckodriver	INFO	Listening on 127.0.0.1:33267
+1637362041321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48627" "-no-remote" "-profile" "/tmp/rust_mozprofileh3mqk7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362043397	Marionette	INFO	Listening on port 43257
+1637362043427	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362071953	Marionette	INFO	Stopped listening on port 43257
+1637362161257	geckodriver	INFO	Listening on 127.0.0.1:38735
+1637362161333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42855" "-no-remote" "-profile" "/tmp/rust_mozprofileteZQZA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362163389	Marionette	INFO	Listening on port 34097
+1637362163441	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362209377	Marionette	INFO	Stopped listening on port 34097
+1637362357089	geckodriver	INFO	Listening on 127.0.0.1:53859
+1637362357153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54227" "-no-remote" "-profile" "/tmp/rust_mozprofilebQMmDa"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362359134	Marionette	INFO	Listening on port 37727
+1637362359160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362371182	Marionette	INFO	Stopped listening on port 37727
+1637362386617	geckodriver	INFO	Listening on 127.0.0.1:46311
+1637362386702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38983" "-no-remote" "-profile" "/tmp/rust_mozprofileIEcnw2"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362388787	Marionette	INFO	Listening on port 40145
+1637362388810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362421946	Marionette	INFO	Stopped listening on port 40145
+1637362447139	geckodriver	INFO	Listening on 127.0.0.1:53049
+1637362447217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49097" "-no-remote" "-profile" "/tmp/rust_mozprofileHqAqSg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362449305	Marionette	INFO	Listening on port 42347
+1637362449323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362474081	Marionette	INFO	Stopped listening on port 42347
+1637362576534	geckodriver	INFO	Listening on 127.0.0.1:50545
+1637362576626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57007" "-no-remote" "-profile" "/tmp/rust_mozprofileJHZtwE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362578641	Marionette	INFO	Listening on port 35449
+1637362578736	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362646474	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1637362646587	Marionette	INFO	Stopped listening on port 35449
