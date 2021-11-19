@@ -281,7 +281,7 @@ class Pyvote(unittest.TestCase):
             "arguments[0].click();", searchButtonElement)
         sleep(5)
 
-        for version in range(1, 100):
+        for version in range(1, 2000):
             self.log('Vote button')
             voteButtonElement = self.driver.find_element_by_xpath(voteButton)
             WebDriverWait(self.driver, 20).until(
