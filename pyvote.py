@@ -2,16 +2,16 @@
 # Leonardo José Zanotti
 # https://github.com/LeonardoZanotti/petition-bot
 
+import json
 import os
 import platform
 import sys
 import unittest
 from datetime import datetime
-from random import randint, uniform
+from random import randint, randrange, uniform
 from time import sleep, time
 
 import numpy as np
-import requests
 import scipy.interpolate as si
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -21,6 +21,23 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.proxy import Proxy, ProxyType
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+
+
+def cpf():
+    def calculate_number(digs):
+        s = 0
+        qtd = len(digs)
+        for i in range(qtd):
+            s += n[i] * (1+qtd-i)
+        res = 11 - s % 11
+        if res >= 10:
+            return 0
+        return res
+    n = [randrange(10) for i in range(9)]
+    n.append(calculate_number(n))
+    n.append(calculate_number(n))
+    return "%d%d%d.%d%d%d.%d%d%d-%d%d" % tuple(n)
+
 
 # Colors to outputs
 BGreen = "\033[1;32m"  # Bold Green
@@ -237,6 +254,7 @@ class petitionBot(unittest.TestCase):
 
         # first page
         searchBar = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[1]/form/div/div/input"
+        searchButton = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[1]/form/div/button"
         voteButton = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div/div/button"
 
         # modal
@@ -252,38 +270,35 @@ class petitionBot(unittest.TestCase):
         searchBarElement = self.driver.find_element_by_xpath(searchBar)
         searchBarElement.send_keys('HELTO')
 
+        self.log('Search button')
+        searchButtonElement = self.driver.find_element_by_xpath(searchButton)
+        self.driver.execute_script(
+            "arguments[0].click();", searchButtonElement)
+
+        self.log('Wait')
+        self.wait_between(MIN_RAND, MAX_RAND)
+
         self.log('Vote button')
         voteButtonElement = self.driver.find_element_by_xpath(voteButton)
-        voteButtonElement.click()
+        self.driver.execute_script("arguments[0].click();", voteButtonElement)
 
         self.log('Name input')
         nameInputElement = self.driver.find_element_by_xpath(nameInput)
-        self.human_like_mouse_move(action, nameInputElement)
         nameInputElement.send_keys('username {}'.format(version))
 
+        self.log('Email input')
         emailInputElement = self.driver.find_element_by_xpath(emailInput)
-        self.human_like_mouse_move(action, emailInputElement)
         emailInputElement.send_keys('username{}@gmail.com'.format(version))
 
+        self.log('CPF input')
         cpfInputElement = self.driver.find_element_by_xpath(cpfInput)
-        self.human_like_mouse_move(action, cpfInputElement)
-        cpfInputElement.send_keys('username{}@gmail.com'.format(version))
+        cpfInputElement.send_keys(cpf())
 
-        # self.log('Wait')
-        # self.wait_between(MIN_RAND, MAX_RAND)
+        submitButtonElement = self.driver.find_element_by_xpath(submitButton)
+        submitButtonElement.click()
 
-        # termsInputElement = self.driver.find_element_by_xpath(termsInput)
-        # self.human_like_mouse_move(action, termsInputElement)
-        # termsInputElement.click()
-
-        # self.log('Wait')
-        # self.wait_between(MIN_RAND, MAX_RAND)
-
-        # submitButtonElement = self.driver.find_element_by_xpath(submitButton)
-        # self.human_like_mouse_move(action, submitButtonElement)
-        # submitButtonElement.click()
-
-        # self.log('Wait')
+        self.log('Wait')
+        sleep(5)
         # self.wait_between(MIN_RAND, MAX_RAND)
 
         # for j in range(10):

@@ -827,3 +827,159 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1637359782018	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
 1637359797793	Marionette	INFO	Stopped listening on port 46455
+1637360159604	geckodriver	INFO	Listening on 127.0.0.1:38395
+1637360159677	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37655" "-no-remote" "-profile" "/tmp/rust_mozprofileiFjT2f"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360161864	Marionette	INFO	Listening on port 46037
+1637360161891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637360162556	Marionette	INFO	Stopped listening on port 46037
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 688))
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 198: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 123: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 928: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+1637360179719	geckodriver	INFO	Listening on 127.0.0.1:45635
+1637360179789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51977" "-no-remote" "-profile" "/tmp/rust_mozprofileIKgcXE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360181926	Marionette	INFO	Listening on port 37157
+1637360181996	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637360182518	Marionette	INFO	Stopped listening on port 37157
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 688))
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 196: Error: Data is not ready.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 198: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.addObserver]
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 123: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 928: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+1637360290762	geckodriver	INFO	Listening on 127.0.0.1:43347
+1637360290831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38405" "-no-remote" "-profile" "/tmp/rust_mozprofiley9sWBX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360293026	Marionette	INFO	Listening on port 42665
+1637360293041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360322772	Marionette	INFO	Stopped listening on port 42665
+1637360428705	geckodriver	INFO	Listening on 127.0.0.1:52007
+1637360428776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58903" "-no-remote" "-profile" "/tmp/rust_mozprofileU9cRsw"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360430851	Marionette	INFO	Listening on port 42465
+1637360430885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360446615	Marionette	INFO	Stopped listening on port 42465
+1637360485601	geckodriver	INFO	Listening on 127.0.0.1:50581
+1637360485672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41843" "-no-remote" "-profile" "/tmp/rust_mozprofile2nnLuU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360487750	Marionette	INFO	Listening on port 37505
+1637360487778	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360515847	Marionette	INFO	Stopped listening on port 37505
+1637360594115	geckodriver	INFO	Listening on 127.0.0.1:51605
+1637360594182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37263" "-no-remote" "-profile" "/tmp/rust_mozprofileMFM9tA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360596387	Marionette	INFO	Listening on port 42313
+1637360596490	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360617710	Marionette	INFO	Stopped listening on port 42313
+1637360658113	geckodriver	INFO	Listening on 127.0.0.1:36845
+1637360658181	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47985" "-no-remote" "-profile" "/tmp/rust_mozprofileOzSwj5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360660520	Marionette	INFO	Listening on port 36853
+1637360660597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360705976	Marionette	INFO	Stopped listening on port 36853
+1637360770241	geckodriver	INFO	Listening on 127.0.0.1:53469
+1637360770303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38379" "-no-remote" "-profile" "/tmp/rust_mozprofileuDI4p3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360772470	Marionette	INFO	Listening on port 37521
+1637360772511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637360774169	Marionette	INFO	Stopped listening on port 37521
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 123: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 928: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1637360793320	geckodriver	INFO	Listening on 127.0.0.1:45331
+1637360793396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59321" "-no-remote" "-profile" "/tmp/rust_mozprofilem73JrR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360795484	Marionette	INFO	Listening on port 40921
+1637360795510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1637360797070	Marionette	INFO	Stopped listening on port 40921
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 123: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 928: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1637360817765	geckodriver	INFO	Listening on 127.0.0.1:43389
+1637360817830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42867" "-no-remote" "-profile" "/tmp/rust_mozprofilesV04E9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360820313	Marionette	INFO	Listening on port 35553
+1637360820337	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360855142	Marionette	INFO	Stopped listening on port 35553
+1637360909797	geckodriver	INFO	Listening on 127.0.0.1:47079
+1637360909864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34307" "-no-remote" "-profile" "/tmp/rust_mozprofileA8S1nm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360911983	Marionette	INFO	Listening on port 46391
+1637360912073	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637360947284	Marionette	INFO	Stopped listening on port 46391
+1637360984675	geckodriver	INFO	Listening on 127.0.0.1:45829
+1637360984741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53133" "-no-remote" "-profile" "/tmp/rust_mozprofileVt07a9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637360986848	Marionette	INFO	Listening on port 45817
+1637360986948	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://streamers.cnb.gg/static/js/main.54683285.chunk.js, line 1: TypeError: e is not a function
+1637361023414	Marionette	INFO	Stopped listening on port 45817
+1637361069913	geckodriver	INFO	Listening on 127.0.0.1:52799
+1637361069982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53085" "-no-remote" "-profile" "/tmp/rust_mozprofileONSKI1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637361072018	Marionette	INFO	Listening on port 46275
+1637361072093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637361114023	Marionette	INFO	Stopped listening on port 46275
+1637361141986	geckodriver	INFO	Listening on 127.0.0.1:45487
+1637361142054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58277" "-no-remote" "-profile" "/tmp/rust_mozprofile7IHspi"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637361144105	Marionette	INFO	Listening on port 41715
+1637361144160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfNujsdAAAAAAJNv6o-ASurAuZe5B0_AUBbmcOl&co=aHR0cHM6Ly9zdHJlYW1lcnMuY25iLmdnOjQ0Mw..&hl=en&v=_7Co1fh8iT2hcjvquYJ_3zSP&size=invisible&cb=jy10gvwtxobw, line 183: ReferenceError: recaptcha is not defined
+1637361163976	Marionette	INFO	Stopped listening on port 41715
+1637361200146	geckodriver	INFO	Listening on 127.0.0.1:48613
+1637361200215	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57433" "-no-remote" "-profile" "/tmp/rust_mozprofileJnUJDa"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637361202209	Marionette	INFO	Listening on port 41447
+1637361202227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637361231995	Marionette	INFO	Stopped listening on port 41447
+1637361432390	geckodriver	INFO	Listening on 127.0.0.1:57915
+1637361432460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55385" "-no-remote" "-profile" "/tmp/rust_mozprofileouxFQ1"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637361434487	Marionette	INFO	Listening on port 39391
+1637361434570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637361465674	Marionette	INFO	Stopped listening on port 39391
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
