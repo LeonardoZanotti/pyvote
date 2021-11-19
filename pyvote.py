@@ -11,6 +11,7 @@ from random import randint, uniform
 from time import sleep, time
 
 import numpy as np
+import requests
 import scipy.interpolate as si
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -233,59 +234,71 @@ class petitionBot(unittest.TestCase):
 
     def test_run(self):
         action = ActionChains(self.driver)
-        nameInput = '//*[@id="ctl00_cmain_txtNome"]'
-        emailInput = '//*[@id="ctl00_cmain_txtEmail"]'
-        termsInput = '//*[@id="ctl00_cmain_chkAutorizoContacto"]'
-        submitButton = '//*[@id="ctl00_cmain_cmdSign"]'
-        version = 6
 
-        self.driver.get('https://peticaopublica.com.br/psign.aspx?pi=BR120937')
+        # first page
+        searchBar = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[1]/form/div/div/input"
+        voteButton = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div/div/div/button"
 
-        self.log('Wait')
-        self.wait_between(MIN_RAND, MAX_RAND)
+        # modal
+        nameInput = '/html/body/div[1]/div/div[2]/div[3]/div[1]/div/div[3]/div/form/div[1]/div/input'
+        emailInput = '/html/body/div[1]/div/div[2]/div[3]/div[1]/div/div[3]/div/form/div[2]/div/input'
+        cpfInput = '/html/body/div[1]/div/div[2]/div[3]/div[1]/div/div[3]/div/form/div[3]/div/input'
+        submitButton = '/html/body/div[1]/div/div[2]/div[3]/div[1]/div/div[3]/div/form/div[4]/button'
+        version = 1
+
+        self.driver.get('https://streamers.cnb.gg/votacao?page=streamers')
+
+        self.log('Search bar')
+        searchBarElement = self.driver.find_element_by_xpath(searchBar)
+        searchBarElement.send_keys('HELTO')
+
+        self.log('Vote button')
+        voteButtonElement = self.driver.find_element_by_xpath(voteButton)
+        voteButtonElement.click()
 
         self.log('Name input')
         nameInputElement = self.driver.find_element_by_xpath(nameInput)
         self.human_like_mouse_move(action, nameInputElement)
         nameInputElement.send_keys('username {}'.format(version))
 
-        self.log('Wait')
-        self.wait_between(MIN_RAND, MAX_RAND)
-
         emailInputElement = self.driver.find_element_by_xpath(emailInput)
         self.human_like_mouse_move(action, emailInputElement)
-        emailInputElement.send_keys('username{}new@gmail.com'.format(version))
+        emailInputElement.send_keys('username{}@gmail.com'.format(version))
 
-        self.log('Wait')
-        self.wait_between(MIN_RAND, MAX_RAND)
+        cpfInputElement = self.driver.find_element_by_xpath(cpfInput)
+        self.human_like_mouse_move(action, cpfInputElement)
+        cpfInputElement.send_keys('username{}@gmail.com'.format(version))
 
-        termsInputElement = self.driver.find_element_by_xpath(termsInput)
-        self.human_like_mouse_move(action, termsInputElement)
-        termsInputElement.click()
+        # self.log('Wait')
+        # self.wait_between(MIN_RAND, MAX_RAND)
 
-        self.log('Wait')
-        self.wait_between(MIN_RAND, MAX_RAND)
+        # termsInputElement = self.driver.find_element_by_xpath(termsInput)
+        # self.human_like_mouse_move(action, termsInputElement)
+        # termsInputElement.click()
 
-        submitButtonElement = self.driver.find_element_by_xpath(submitButton)
-        self.human_like_mouse_move(action, submitButtonElement)
-        submitButtonElement.click()
+        # self.log('Wait')
+        # self.wait_between(MIN_RAND, MAX_RAND)
 
-        self.log('Wait')
-        self.wait_between(MIN_RAND, MAX_RAND)
+        # submitButtonElement = self.driver.find_element_by_xpath(submitButton)
+        # self.human_like_mouse_move(action, submitButtonElement)
+        # submitButtonElement.click()
 
-        for j in range(2000):
-            self.driver.back()
-            emailInputElement = self.driver.find_element_by_xpath(emailInput)
-            self.human_like_mouse_move(action, emailInputElement)
-            emailInputElement.clear()
-            emailInputElement.send_keys(
-                'username{}{}@gmail.com'.format(version, j))
-            self.log('Wait')
-            self.wait_between(MIN_RAND, MAX_RAND)
-            submitButtonElement = self.driver.find_element_by_xpath(
-                submitButton)
-            self.human_like_mouse_move(action, submitButtonElement)
-            submitButtonElement.click()
+        # self.log('Wait')
+        # self.wait_between(MIN_RAND, MAX_RAND)
+
+        # for j in range(10):
+        #     self.driver.back()
+        #     emailInputElement = self.driver.find_element_by_xpath(emailInput)
+        #     self.human_like_mouse_move(action, emailInputElement)
+        #     emailInputElement.clear()
+        #     emailInputElement.send_keys(
+        #         'username{}{}@gmail.com'.format(version, j))
+        #     self.log('Wait')
+        #     self.wait_between(MIN_RAND, MAX_RAND)
+        #     submitButtonElement = self.driver.find_element_by_xpath(
+        #         submitButton)
+        #     self.human_like_mouse_move(action, submitButtonElement)
+        #     submitButtonElement.click()
 
     def tearDown(self):
         self.log('Ending bot...')

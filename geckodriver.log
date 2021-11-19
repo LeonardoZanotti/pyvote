@@ -804,3 +804,26 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1635019484374	Marionette	WARN	TLS certificate errors will be ignored for this session
 1635019511762	Marionette	INFO	Stopped listening on port 33361
 1635019512061	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1637359609535	geckodriver	INFO	Listening on 127.0.0.1:52761
+1637359610070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39689" "-no-remote" "-profile" "/tmp/rust_mozprofileCyMGaY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637359613759	Marionette	INFO	Listening on port 36901
+1637359613818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637359620480	Marionette	INFO	Stopped listening on port 36901
+1637359681463	geckodriver	INFO	Listening on 127.0.0.1:49369
+1637359681534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33689" "-no-remote" "-profile" "/tmp/rust_mozprofileirqsUp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637359683604	Marionette	INFO	Listening on port 43285
+1637359683641	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637359762685	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 894: Error: Error(s) encountered during statement execution: disk I/O error
+1637359762798	Marionette	INFO	Stopped listening on port 43285
+1637359779641	geckodriver	INFO	Listening on 127.0.0.1:48997
+1637359779705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48169" "-no-remote" "-profile" "/tmp/rust_mozprofile0nFPAL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637359781934	Marionette	INFO	Listening on port 46455
+1637359782018	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637359797793	Marionette	INFO	Stopped listening on port 46455
