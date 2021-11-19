@@ -281,7 +281,7 @@ class Pyvote(unittest.TestCase):
             "arguments[0].click();", searchButtonElement)
         sleep(5)
 
-        for version in range(1, 10):
+        for version in range(1, 100):
             self.log('Vote button')
             voteButtonElement = self.driver.find_element_by_xpath(voteButton)
             WebDriverWait(self.driver, 20).until(
@@ -306,7 +306,8 @@ class Pyvote(unittest.TestCase):
 
             submitButtonElement = self.driver.find_element_by_xpath(
                 submitButton)
-            submitButtonElement.click()
+            self.driver.execute_script(
+                "arguments[0].click();", submitButtonElement)
 
             WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.XPATH, okButton))).click()
