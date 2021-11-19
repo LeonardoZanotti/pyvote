@@ -1072,3 +1072,44 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
 1637362646474	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
 1637362646587	Marionette	INFO	Stopped listening on port 35449
+1637362678552	geckodriver	INFO	Listening on 127.0.0.1:54285
+1637362678623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46115" "-no-remote" "-profile" "/tmp/rust_mozprofileUCGEYp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362680644	Marionette	INFO	Listening on port 34485
+1637362680730	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362735698	Marionette	INFO	Stopped listening on port 34485
+1637362923588	geckodriver	INFO	Listening on 127.0.0.1:37929
+1637362923658	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49955" "-no-remote" "-profile" "/tmp/rust_mozprofileV4XSdn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637362925775	Marionette	INFO	Listening on port 44775
+1637362925867	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637362976159	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 894: Error: Error(s) encountered during statement execution: disk I/O error
+1637362976277	Marionette	INFO	Stopped listening on port 44775
+1637363213398	geckodriver	INFO	Listening on 127.0.0.1:58937
+1637363213464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47925" "-no-remote" "-profile" "/tmp/rust_mozprofileoBFXww"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637363215564	Marionette	INFO	Listening on port 46235
+1637363215570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637363258009	Marionette	INFO	Stopped listening on port 46235
+1637363326976	geckodriver	INFO	Listening on 127.0.0.1:57215
+1637363327055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53013" "-no-remote" "-profile" "/tmp/rust_mozprofileKIzhkk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637363329151	Marionette	INFO	Listening on port 35651
+1637363329162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637363377734	Marionette	INFO	Stopped listening on port 35651
+1637363466758	geckodriver	INFO	Listening on 127.0.0.1:40541
+1637363466829	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43407" "-no-remote" "-profile" "/tmp/rust_mozprofiledfb3DJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637363469175	Marionette	INFO	Listening on port 38571
+1637363469237	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637363496893	Marionette	INFO	Stopped listening on port 38571
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+

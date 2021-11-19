@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Leonardo José Zanotti
-# https://github.com/LeonardoZanotti/petition-bot
+# https://github.com/LeonardoZanotti/pyvote
 
 import json
 import os
@@ -122,7 +122,7 @@ index = int(uniform(0, len(PROXY)))
 PROXY = PROXY[index]["host"]+":"+str(PROXY[index]["port"])
 
 
-class petitionBot(unittest.TestCase):
+class Pyvote(unittest.TestCase):
     number = None
     headless = False
     options = None
@@ -135,6 +135,9 @@ class petitionBot(unittest.TestCase):
         if t == None:
             t = "Main"
         print(f"{Blue}%s :: %s -> %s{Yellow}" % (str(now), t, s))
+
+    def success(s, t):
+        print(f"{BGreen}{t}")
 
     # Use time.sleep for waiting and uniform for randomizing
     def wait_between(self, a, b):
@@ -278,10 +281,7 @@ class petitionBot(unittest.TestCase):
             "arguments[0].click();", searchButtonElement)
         sleep(5)
 
-        for version in range(10):
-            self.log('Wait')
-            self.wait_between(MIN_RAND, MAX_RAND)
-
+        for version in range(1, 10):
             self.log('Vote button')
             voteButtonElement = self.driver.find_element_by_xpath(voteButton)
             WebDriverWait(self.driver, 20).until(
@@ -308,11 +308,10 @@ class petitionBot(unittest.TestCase):
                 submitButton)
             submitButtonElement.click()
 
-            self.log('Wait')
-            self.wait_between(MIN_RAND, MAX_RAND)
-
             WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable((By.XPATH, okButton))).click()
+
+            self.success('Vote success - {}'.format(version))
 
     def tearDown(self):
         self.log('Ending bot...')
