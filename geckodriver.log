@@ -1274,3 +1274,258 @@ JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, l
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1637408607351	geckodriver	INFO	Listening on 127.0.0.1:42083
+1637408607913	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43237" "-no-remote" "-profile" "/tmp/rust_mozprofilelAqfyq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637408611609	Marionette	INFO	Listening on port 44455
+1637408611655	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x620023,name=PLayerTransaction::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+1637408622325	Marionette	INFO	Stopped listening on port 44455
+1637408623547	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1637408634785	geckodriver	INFO	Listening on 127.0.0.1:32781
+1637408634852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54119" "-no-remote" "-profile" "/tmp/rust_mozprofilerFkUsN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637408637004	Marionette	INFO	Listening on port 37523
+1637408637060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637408697543	Marionette	INFO	Stopped listening on port 37523
+1637408699937	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1637408763303	geckodriver	INFO	Listening on 127.0.0.1:48765
+1637408763370	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60467" "-no-remote" "-profile" "/tmp/rust_mozprofile6jVKMt"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637408765565	Marionette	INFO	Listening on port 39887
+1637408765584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637408888667	Marionette	INFO	Stopped listening on port 39887
+1637408889425	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1637408990505	geckodriver	INFO	Listening on 127.0.0.1:36475
+1637408990587	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36591" "-no-remote" "-profile" "/tmp/rust_mozprofilelE8109"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637408992479	Marionette	INFO	Listening on port 43661
+1637408992497	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409011760	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1637409011908	Marionette	INFO	Stopped listening on port 43661
+1637409028053	geckodriver	INFO	Listening on 127.0.0.1:33869
+1637409028127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51663" "-no-remote" "-profile" "/tmp/rust_mozprofileUbUuy8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409030198	Marionette	INFO	Listening on port 33587
+1637409030240	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409047906	Marionette	INFO	Stopped listening on port 33587
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 928: Error: Connection is not open.
+1637409076314	geckodriver	INFO	Listening on 127.0.0.1:50473
+1637409076384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46995" "-no-remote" "-profile" "/tmp/rust_mozprofileK8LCRC"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409078294	Marionette	INFO	Listening on port 45549
+1637409078396	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409084213	Marionette	INFO	Stopped listening on port 45549
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 928: Error: Connection is not open.
+1637409126245	geckodriver	INFO	Listening on 127.0.0.1:52659
+1637409126320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46627" "-no-remote" "-profile" "/tmp/rust_mozprofilee0KQ5y"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409128562	Marionette	INFO	Listening on port 44715
+1637409128680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409154195	Marionette	INFO	Stopped listening on port 44715
+1637409199095	geckodriver	INFO	Listening on 127.0.0.1:36363
+1637409199169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48527" "-no-remote" "-profile" "/tmp/rust_mozprofilewGd3n5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409201750	Marionette	INFO	Listening on port 42897
+1637409201778	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409215735	Marionette	INFO	Stopped listening on port 42897
+1637409307562	geckodriver	INFO	Listening on 127.0.0.1:47499
+1637409307641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35495" "-no-remote" "-profile" "/tmp/rust_mozprofileEPoSVa"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409309540	Marionette	INFO	Listening on port 33045
+1637409309549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409536614	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409539634	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409543076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409546246	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409549553	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409552328	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409555690	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409565047	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409567909	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409576417	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409585704	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409591736	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409600357	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409603577	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409606502	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409609477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409612707	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409616088	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409623243	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1637409623452	Marionette	INFO	Stopped listening on port 33045
+1637409811154	geckodriver	INFO	Listening on 127.0.0.1:50625
+1637409811253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49505" "-no-remote" "-profile" "/tmp/rust_mozprofileCe9BtY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409813132	Marionette	INFO	Listening on port 38649
+1637409813161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409835587	Marionette	INFO	Stopped listening on port 38649
+1637409911542	geckodriver	INFO	Listening on 127.0.0.1:36993
+1637409911618	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55723" "-no-remote" "-profile" "/tmp/rust_mozprofile4y6kwk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637409913846	Marionette	INFO	Listening on port 42085
+1637409913926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637409934710	Marionette	INFO	Stopped listening on port 42085
+1637410004681	geckodriver	INFO	Listening on 127.0.0.1:55855
+1637410004747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59927" "-no-remote" "-profile" "/tmp/rust_mozprofile1JuZKc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637410006725	Marionette	INFO	Listening on port 37573
+1637410006752	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637410014217	geckodriver	INFO	Listening on 127.0.0.1:34979
+1637410014310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38515" "-no-remote" "-profile" "/tmp/rust_mozprofileS96ZfE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637410016192	Marionette	INFO	Listening on port 40857
+1637410016216	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637410046548	Marionette	INFO	Stopped listening on port 40857
+1637410101979	geckodriver	INFO	Listening on 127.0.0.1:40691
+1637410102058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54929" "-no-remote" "-profile" "/tmp/rust_mozprofile676AHW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637410104136	Marionette	INFO	Listening on port 44981
+1637410104167	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637410132070	Marionette	INFO	Stopped listening on port 44981
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1637410209921	geckodriver	INFO	Listening on 127.0.0.1:53767
+1637410209990	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49535" "-no-remote" "-profile" "/tmp/rust_mozprofileAu105n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637410212015	Marionette	INFO	Listening on port 40465
+1637410212097	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637410227595	Marionette	INFO	Stopped listening on port 40465
+1637410267987	geckodriver	INFO	Listening on 127.0.0.1:39085
+1637410268059	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33119" "-no-remote" "-profile" "/tmp/rust_mozprofiledkaYaF"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637410270138	Marionette	INFO	Listening on port 35665
+1637410270170	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637410338765	geckodriver	INFO	Listening on 127.0.0.1:33769
+1637410338840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42003" "-no-remote" "-profile" "/tmp/rust_mozprofileAh4tVn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1637410340919	Marionette	INFO	Listening on port 36259
+1637410340946	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://streamers.cnb.gg/assets/libs/js/jquery-3.3.1.min.js, line 1: SyntaxError: expected expression, got '<'
+1637410386848	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 894: Error: Error(s) encountered during statement execution: disk I/O error
+1637410387206	Marionette	INFO	Stopped listening on port 36259

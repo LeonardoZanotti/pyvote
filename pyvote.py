@@ -139,6 +139,9 @@ class Pyvote(unittest.TestCase):
     def success(s, t):
         print(f"{BGreen}{t}")
 
+    def error(s, t):
+        print(f"{Red}{t}")
+
     # Use time.sleep for waiting and uniform for randomizing
     def wait_between(self, a, b):
         rand = uniform(a, b)
@@ -255,6 +258,113 @@ class Pyvote(unittest.TestCase):
     def test_run(self):
         action = ActionChains(self.driver)
 
+        streamers = [
+            "oivan1",
+            "diabolic_girl",
+            "Raphajack",
+            "ahvitum",
+            "Buxudinho",
+            "titizao44",
+            "lc_ximenes",
+            "HorikoShoga",
+            "Fahamum",
+            "presto_dog",
+            "Serotristina",
+            "JulienioD",
+            "Miixs",
+            "Imunizado",
+            "Hartteman",
+            "koppzn",
+            "ImViniZaggo",
+            "SoMaisUmNoobNaInternet",
+            "https://www.twitch.tv/axcse",
+            "dartziiin",
+            "vettorazz1",
+            "RealYocartBR532",
+            "Azulaozim",
+            "eltinfull9",
+            "Massukiabo",
+            "td_g4mes",
+            "Imerlinnn",
+            "Felfo",
+            "Chanssita",
+            "goordao01",
+            "Tititiltada",
+            "Sammy Dixoon",
+            "kratos__ps4",
+            "Feijao1002",
+            "Manggini",
+            "Andrei_sls",
+            "BangerzGG",
+            "Tominho",
+            "opaidalunnaa",
+            "Cavalcante85",
+            "milenacolinm",
+            "liachan_ceci",
+            "deusafogado",
+            "LordMec",
+            "Rayuchuu",
+            "Ccorongs",
+            "lionleoheart",
+            "Dyksada",
+            "https://",
+            "r0xaslol",
+            "REPPUKK",
+            "Luuh3k",
+            "Khaluxofc",
+            "qusttavo2",
+            "Kyrahimeoficial",
+            "Lysanziel",
+            "aioko",
+            "KimPiine",
+            "SonataAnpan",
+            "Dillianresende",
+            "twZaya",
+            "Drakonann",
+            "Elfo de Touca",
+            "tifelixg",
+            "tijolo0",
+            "Gratuzlol",
+            "hilugui",
+            "Bryanrc0",
+            "topzzs",
+            "luigidrett",
+            "leonasser",
+            "samunelso",
+            "RuivoShun",
+            "AAkirazin",
+            "zac_sh0w",
+            "VimingGamer",
+            "sladefate",
+            "fabexbr",
+            "avogato007",
+            "godhighlander",
+            "Jessiedm",
+            "Gtoyoshima",
+            "dvaragorn",
+            "mv_mistery",
+            "spadille_tv",
+            "TheLiraa",
+            "Gargulaex",
+            "https://",
+            "Snowmate204",
+            "iAsh_31",
+            "ichisakura",
+            "0pipcoco",
+            "ChronosHenry",
+            "Dignidade",
+            "soweoff",
+            "https://www.twitch.tv/mathola",
+            "https://www.twitch.tv/lhamaeu2",
+            "https://www.twitch.tv/japao1",
+            "https://www.twitch.tv/paquitodefogo",
+            "https://www.twitch.tv/srporcao",
+            "https://www.twitch.tv/gises_oni",
+            "twitch.tv/isaladonerd",
+            "caiodvl",
+            "birdybr"
+        ]
+
         # first page
         searchBar = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[1]/form/div/div/input"
         searchButton = "/html/body/div[1]/div/div[2]/div[2]/div[2]/div[2]/div[1]/form/div/button"
@@ -269,50 +379,68 @@ class Pyvote(unittest.TestCase):
         # vote done modal
         okButton = "/html/body/div[6]/div/div[3]/button[1]"
 
+        # success definition
+        successText = '//*[@id="swal2-content"]'
+
         self.driver.get('https://streamers.cnb.gg/votacao?page=streamers')
 
-        self.log('Search bar')
-        searchBarElement = self.driver.find_element_by_xpath(searchBar)
-        searchBarElement.send_keys('HELTO')
+        for streamer in streamers:
+            self.log('Search bar')
+            searchBarElement = self.driver.find_element_by_xpath(searchBar)
+            searchBarElement.clear()
+            searchBarElement.send_keys(streamer)
 
-        self.log('Search button')
-        searchButtonElement = self.driver.find_element_by_xpath(searchButton)
-        self.driver.execute_script(
-            "arguments[0].click();", searchButtonElement)
-        sleep(5)
-
-        for version in range(1, 2000):
-            self.log('Vote button')
-            voteButtonElement = self.driver.find_element_by_xpath(voteButton)
-            WebDriverWait(self.driver, 20).until(
-                EC.element_to_be_clickable((By.XPATH, voteButton)))
+            self.log('Search button')
+            searchButtonElement = self.driver.find_element_by_xpath(
+                searchButton)
             self.driver.execute_script(
-                "arguments[0].click();", voteButtonElement)
+                "arguments[0].click();", searchButtonElement)
 
-            self.log('Name input')
-            nameInputElement = self.driver.find_element_by_xpath(nameInput)
-            nameInputElement.clear()
-            nameInputElement.send_keys('username {}'.format(version))
+            self.wait_between(MIN_RAND, MAX_RAND)
 
-            self.log('Email input')
-            emailInputElement = self.driver.find_element_by_xpath(emailInput)
-            emailInputElement.clear()
-            emailInputElement.send_keys('username{}@gmail.com'.format(version))
+            for version in range(1, 2):
+                self.log('Vote button')
+                voteButtonElement = self.driver.find_element_by_xpath(
+                    voteButton)
+                WebDriverWait(self.driver, 20).until(
+                    EC.element_to_be_clickable((By.XPATH, voteButton)))
+                self.driver.execute_script(
+                    "arguments[0].click();", voteButtonElement)
 
-            self.log('CPF input')
-            cpfInputElement = self.driver.find_element_by_xpath(cpfInput)
-            cpfInputElement.clear()
-            cpfInputElement.send_keys(cpf())
+                self.log('Name input')
+                nameInputElement = self.driver.find_element_by_xpath(nameInput)
+                nameInputElement.clear()
+                nameInputElement.send_keys(
+                    'new {} {}'.format(streamer, version))
 
-            submitButtonElement = self.driver.find_element_by_xpath(
-                submitButton)
-            self.driver.execute_script(
-                "arguments[0].click();", submitButtonElement)
+                self.log('Email input')
+                emailInputElement = self.driver.find_element_by_xpath(
+                    emailInput)
+                emailInputElement.clear()
+                emailInputElement.send_keys(
+                    'new{}username{}@gmail.com'.format(streamer, version))
 
-            WebDriverWait(self.driver, 20).until(
-                EC.element_to_be_clickable((By.XPATH, okButton))).click()
+                self.log('CPF input')
+                cpfInputElement = self.driver.find_element_by_xpath(cpfInput)
+                cpfInputElement.clear()
+                cpfInputElement.send_keys(cpf())
 
-            self.success('Vote success - {}'.format(version))
+                submitButtonElement = self.driver.find_element_by_xpath(
+                    submitButton)
+                self.driver.execute_script(
+                    "arguments[0].click();", submitButtonElement)
+
+                WebDriverWait(self.driver, 20).until(
+                    EC.element_to_be_clickable((By.XPATH, successText)))
+                success = self.driver.find_element_by_xpath(successText)
+                if (success.text == "Voto realizado com sucesso"):
+                    self.success(
+                        'Vote success {} - {}'.format(streamer, version))
+                else:
+                    self.error(success.text)
+
+                WebDriverWait(self.driver, 20).until(
+                    EC.element_to_be_clickable((By.XPATH, okButton))).click()
 
     def tearDown(self):
         self.log('Ending bot...')
