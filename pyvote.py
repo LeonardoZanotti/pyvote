@@ -259,7 +259,15 @@ class Pyvote(unittest.TestCase):
         action = ActionChains(self.driver)
 
         streamers = [
+            "RuivoShun",
+            "Azulaozim",
+            "Tominho",
             "oivan1",
+            "presto_dog",
+            "Serotristina",
+            "Gargulaex",
+            "Elfo de Touca",
+            "Imunizado",
             "diabolic_girl",
             "Raphajack",
             "ahvitum",
@@ -268,11 +276,8 @@ class Pyvote(unittest.TestCase):
             "lc_ximenes",
             "HorikoShoga",
             "Fahamum",
-            "presto_dog",
-            "Serotristina",
             "JulienioD",
             "Miixs",
-            "Imunizado",
             "Hartteman",
             "koppzn",
             "ImViniZaggo",
@@ -281,7 +286,6 @@ class Pyvote(unittest.TestCase):
             "dartziiin",
             "vettorazz1",
             "RealYocartBR532",
-            "Azulaozim",
             "eltinfull9",
             "Massukiabo",
             "td_g4mes",
@@ -296,7 +300,6 @@ class Pyvote(unittest.TestCase):
             "Manggini",
             "Andrei_sls",
             "BangerzGG",
-            "Tominho",
             "opaidalunnaa",
             "Cavalcante85",
             "milenacolinm",
@@ -307,7 +310,6 @@ class Pyvote(unittest.TestCase):
             "Ccorongs",
             "lionleoheart",
             "Dyksada",
-            "https://",
             "r0xaslol",
             "REPPUKK",
             "Luuh3k",
@@ -321,7 +323,6 @@ class Pyvote(unittest.TestCase):
             "Dillianresende",
             "twZaya",
             "Drakonann",
-            "Elfo de Touca",
             "tifelixg",
             "tijolo0",
             "Gratuzlol",
@@ -331,7 +332,6 @@ class Pyvote(unittest.TestCase):
             "luigidrett",
             "leonasser",
             "samunelso",
-            "RuivoShun",
             "AAkirazin",
             "zac_sh0w",
             "VimingGamer",
@@ -345,8 +345,6 @@ class Pyvote(unittest.TestCase):
             "mv_mistery",
             "spadille_tv",
             "TheLiraa",
-            "Gargulaex",
-            "https://",
             "Snowmate204",
             "iAsh_31",
             "ichisakura",
@@ -398,7 +396,7 @@ class Pyvote(unittest.TestCase):
 
             self.wait_between(MIN_RAND, MAX_RAND)
 
-            for version in range(1, 2):
+            for version in range(1, 2000):
                 self.log('Vote button')
                 voteButtonElement = self.driver.find_element_by_xpath(
                     voteButton)
